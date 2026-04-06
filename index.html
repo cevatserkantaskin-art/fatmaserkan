@@ -217,7 +217,9 @@ Her gün seninle daha güzel ve sen çok güzelsin.
 /* Açılış ekranı */
 
 function openSite(){
-document.getElementById("intro").style.display="none"
+document.getElementById("heartBtn").onclick = function() {
+    document.getElementById("intro").style.display = "none";
+}
 }
 
 /* Gün sayacı */
